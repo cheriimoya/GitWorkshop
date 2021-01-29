@@ -9,9 +9,16 @@
 ~~~
 
 ## git checkout
-- `git checkout branchname` to switch branches
-- `git checkout -b` to create new (local) branch from HEAD
+- `git checkout <branchname>` to switch branches
+- `git checkout -b <branchname>` to create new (local) branch from HEAD
 
+~~~
+
+## git pull
+- pushes local commits to the remote
+- `git push origin master` push directly to master
+- dont push to master!
+- use `--force` or `-f` if you really want to
 ~~~
 
 ## git add
@@ -25,6 +32,7 @@
 ## git commit
 - to commit changes from the index
 - `git commit -m <message>`
+- even better, use `git commit -v`
 
 ~~~
 

@@ -37,7 +37,7 @@
 
 ~~~
 
-## HEAD
+## head (lowercase)
 > A head is simply a reference to a commit object. Each head has a name.
 > By default, there is a head in every repository called master. A repository
 > can contain any number of heads. At any given time, one head is selected as
@@ -47,12 +47,11 @@
 
 ~~~
 
-## head
+## HEAD (uppercase)
 > Note this difference: a “head” (lowercase) refers to any one of the named
 > heads in the repository; “HEAD” (uppercase) refers exclusively to the
 > currently active head. This distinction is used frequently in Git
-> documentation. I also use the convention that names of heads, including
-> HEAD, are set in italics.
+> documentation. [...]
 
 [*~sbf5.com*](https://www.sbf5.com/~cduan/technical/git/git-1.shtml#heads)
 
@@ -68,22 +67,12 @@
 
 ~~~
 
-## remotes #1
+## Remotes
 > As you probably know, git is a distributed version control system. Most
 > operations are done locally. To communicate with the outside world, git uses
 > what are called remotes. These are repositories other than the one on your
 > local disk which you can push your changes into (so that other people can see
 > them) or pull from (so that you can get others changes).
-
-[*~stackoverflow.com*](https://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-origin-master/5617350#5617350)
-
-~~~
-
-## remotes #2
-> The command git remote add origin git@github.com:peter/first_app.gitcreates a
-> new remote called origin located at git@github.com:peter/first_app.git. Once
-> you do this, in your push commands, you can push to origin instead of typing
-> out the whole URL.
 
 [*~stackoverflow.com*](https://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-origin-master/5617350#5617350)
 
